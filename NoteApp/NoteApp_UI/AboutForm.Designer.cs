@@ -43,11 +43,11 @@ namespace NoteApp_UI
             this.aboutMainTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.aboutMainTextBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.aboutMainTextBox.Location = new System.Drawing.Point(0, 52);
-            this.aboutMainTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.aboutMainTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.aboutMainTextBox.Multiline = true;
             this.aboutMainTextBox.Name = "aboutMainTextBox";
             this.aboutMainTextBox.ReadOnly = true;
-            this.aboutMainTextBox.Size = new System.Drawing.Size(255, 136);
+            this.aboutMainTextBox.Size = new System.Drawing.Size(255, 157);
             this.aboutMainTextBox.TabIndex = 0;
             this.aboutMainTextBox.Text = "Учебный проект для университета\r\n\r\nv1.0.0\r\n\r\nAuthor: Artem Karev\r\n\r\nGitHub: https" +
     "://github.com/Molegen/NoteApp.git";
@@ -59,7 +59,7 @@ namespace NoteApp_UI
             this.aboutTitleTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.aboutTitleTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.8F);
             this.aboutTitleTextBox.Location = new System.Drawing.Point(2, 2);
-            this.aboutTitleTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.aboutTitleTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.aboutTitleTextBox.Name = "aboutTitleTextBox";
             this.aboutTitleTextBox.ReadOnly = true;
             this.aboutTitleTextBox.Size = new System.Drawing.Size(123, 24);
@@ -77,7 +77,7 @@ namespace NoteApp_UI
             this.AAboutStatusGroupBox0.Controls.Add(this.aboutMainTextBox2);
             this.AAboutStatusGroupBox0.Controls.Add(this.aboutMainTextBox);
             this.AAboutStatusGroupBox0.Location = new System.Drawing.Point(9, 15);
-            this.AAboutStatusGroupBox0.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AAboutStatusGroupBox0.Margin = new System.Windows.Forms.Padding(2);
             this.AAboutStatusGroupBox0.Name = "AAboutStatusGroupBox0";
             this.AAboutStatusGroupBox0.Size = new System.Drawing.Size(274, 281);
             this.AAboutStatusGroupBox0.TabIndex = 14;
@@ -92,7 +92,7 @@ namespace NoteApp_UI
             this.aboutMainTextBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.aboutMainTextBox2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.aboutMainTextBox2.Location = new System.Drawing.Point(0, 249);
-            this.aboutMainTextBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.aboutMainTextBox2.Margin = new System.Windows.Forms.Padding(2);
             this.aboutMainTextBox2.Multiline = true;
             this.aboutMainTextBox2.Name = "aboutMainTextBox2";
             this.aboutMainTextBox2.ReadOnly = true;
@@ -108,7 +108,7 @@ namespace NoteApp_UI
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(364, 302);
             this.Controls.Add(this.AAboutStatusGroupBox0);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AboutForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "AboutForm";
