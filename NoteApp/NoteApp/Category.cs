@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace NoteApp
 {
-    internal class Category
+    /// <summary>
+    /// Список категорий    
+    /// </summary>
+    public enum Category
     {
+        All,
+        Home,
+        Work,
+        Health,
+        People,
+        Docs,
+        Finance,
+        Other,
     }
 }
